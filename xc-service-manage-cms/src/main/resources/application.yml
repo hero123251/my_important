@@ -1,0 +1,29 @@
+server:
+  port: ${PORT:31001}
+spring:
+  application:
+    name: xc-service-manage-cms
+  data:
+    mongodb:
+      uri:  mongodb://root:root@localhost:27017
+      database: xc_cms
+  rabbitmq:
+    host: 127.0.0.1
+    port: 5672
+    username: guest
+    password: guest
+    virtualHost: /
+  freemarker:
+    cache: false  #关闭模板缓存，方便测试
+    settings:
+      template_update_delay: 0
+eureka:
+  client:
+    register-with-eureka: true #服务注册开关
+    fetch-registry: true #服务发现开关
+    service-url: #eureka的服务地址
+      defaultZone: ${EUREKA_SERVER:http://eureka01:50101/eureka/}
+  instance:
+    prefer-ip-address: true #是否将自己的地址注册到eureka服务中心去
+    ip-address: ${IP_ADDRESS:127.0.0.1} #自己的ip地址
+    instance-id: ${spring.application.name}:${server.port} # 自己的服务名+端口

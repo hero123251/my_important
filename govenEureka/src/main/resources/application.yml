@@ -1,0 +1,16 @@
+server:
+  port: ${PORT:50101} #服务端口
+spring:
+  application:
+    name: govenEureka
+eureka:
+  client:
+    register-with-eureka: true
+    fetch-registry: true
+    service-url:
+      defaultZooe: ${EUREKA_SERVER:http://eureka01:50101/eureka/}
+  server:
+    enable-self-preservation: false
+    eviction-interval-timer-in-ms: 6000
+  instance:
+    hostname: ${EUREKA_DOMAIN:eureka01}

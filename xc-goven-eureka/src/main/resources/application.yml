@@ -1,0 +1,16 @@
+server:
+  port: ${PORT:50101}
+spring:
+  application:
+    name: xc-goven-eureka
+eureka:
+  client:
+    register-with-eureka: true #是否去注册中心eureka注册，单机版的eureka一般设置false
+    fetch-registry: true #是否去注册中心eureka发现，单机版的eureka一般设置false
+    service-url:
+      defaultZooe: ${EUREKA_SERVER:http://eureka01:50101/eureka/} #配置需要注册或者发现的注册中心的地址，高可用版配置对方，单机版配置自己
+  server:
+    enable-self-preservation: false #是否开启自我保护模式  如果开启，在自动剔除的时候，多考虑一点没有上报的原因网络的问题，而不是该微服务已经挂了
+    eviction-interval-timer-in-ms: 6000 #如果有微服务6000毫秒没有上报，则自动剔除
+  instance:
+    hostname: ${EUREKA_DOMAIN:eureka01}

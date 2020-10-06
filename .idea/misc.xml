@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ExternalStorageConfigurationManager" enabled="true" />
+  <component name="MavenProjectsManager">
+    <option name="originalFiles">
+      <list>
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/xc-framework-common/pom.xml" />
+        <option value="$PROJECT_DIR$/xc-framework-model/pom.xml" />
+        <option value="$PROJECT_DIR$/xc-framework-parent/pom.xml" />
+        <option value="$PROJECT_DIR$/xc-framework-utils/pom.xml" />
+        <option value="$PROJECT_DIR$/xc-service-api/pom.xml" />
+        <option value="$PROJECT_DIR$/xc-service-manage-cms/pom.xml" />
+        <option value="$PROJECT_DIR$/xc-service-manage-course/pom.xml" />
+        <option value="$PROJECT_DIR$/LombokDemo01/pom.xml" />
+        <option value="$PROJECT_DIR$/test-freemark/pom.xml" />
+        <option value="$PROJECT_DIR$/test-rabbitmq-consumer/pom.xml" />
+        <option value="$PROJECT_DIR$/xc-service-base-filesystem/pom.xml" />
+        <option value="$PROJECT_DIR$/xc-service-manage-cms-client/pom.xml" />
+        <option value="$PROJECT_DIR$/test-rabbitmq-producer/pom.xml" />
+        <option value="$PROJECT_DIR$/xc-goven-eureka/pom.xml" />
+        <option value="$PROJECT_DIR$/xc-service-search/pom.xml" />
+        <option value="$PROJECT_DIR$/xc-service-manage-media/pom.xml" />
+        <option value="$PROJECT_DIR$/test-Collection/pom.xml" />
+        <option value="$PROJECT_DIR$/test-io/pom.xml" />
+        <option value="$PROJECT_DIR$/test-jvm/pom.xml" />
+        <option value="$PROJECT_DIR$/test-map-thread/pom.xml" />
+        <option value="$PROJECT_DIR$/thread_demo/pom.xml" />
+        <option value="$PROJECT_DIR$/test-IocAop/pom.xml" />
+        <option value="$PROJECT_DIR$/test-proxystatic/pom.xml" />
+        <option value="$PROJECT_DIR$/test-web/pom.xml" />
+        <option value="$PROJECT_DIR$/test-mybatis-cache/pom.xml" />
+        <option value="$PROJECT_DIR$/test-static-Demo/pom.xml" />
+        <option value="$PROJECT_DIR$/test-DuoTai/pom.xml" />
+        <option value="$PROJECT_DIR$/testStringTest/pom.xml" />
+        <option value="$PROJECT_DIR$/test-mysql/pom.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" default="false" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/out" />
+  </component>
+</project>

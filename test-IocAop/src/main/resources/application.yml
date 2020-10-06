@@ -1,0 +1,5 @@
+server:
+  port: 31122
+spring:
+  application:
+    name: xc-IocAop

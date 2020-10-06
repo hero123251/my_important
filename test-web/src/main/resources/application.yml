@@ -1,0 +1,5 @@
+server:
+  port: 31223
+spring:
+  application:
+    name: test-web

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="LombokDemo01" />
+        <module name="test-Collection" />
+        <module name="test-DuoTai" />
+        <module name="test-freemark" />
+        <module name="test-io" />
+        <module name="test-IocAop" />
+        <module name="test-jvm" />
+        <module name="test-map-thread" />
+        <module name="test-mybatis-cache" />
+        <module name="test-mysql" />
+        <module name="test-proxystatic" />
+        <module name="test-rabbitmq-consumer" />
+        <module name="test-rabbitmq-producer" />
+        <module name="test-static-Demo" />
+        <module name="test-String-Test" />
+        <module name="test-thread_demo" />
+        <module name="test-web" />
+        <module name="xc-framework-common" />
+        <module name="xc-framework-model" />
+        <module name="xc-framework-utils" />
+        <module name="xc-goven-eureka" />
+        <module name="xc-service-api" />
+        <module name="xc-service-base-filesystem" />
+        <module name="xc-service-manage-cms" />
+        <module name="xc-service-manage-cms-client" />
+        <module name="xc-service-manage-course" />
+        <module name="xc-service-manage-media" />
+        <module name="xc-service-search" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="govenEureka" target="1.8" />
+      <module name="SpringcloudTest" target="1.5" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="govenEureka" options="-parameters" />
+      <module name="test-freemark" options="-parameters" />
+      <module name="test-mybatis-cache" options="-parameters" />
+      <module name="test-rabbitmq-consumer" options="-parameters" />
+      <module name="test-rabbitmq-producer" options="-parameters" />
+      <module name="xc-framework-common" options="-parameters" />
+      <module name="xc-framework-model" options="-parameters" />
+      <module name="xc-framework-utils" options="-parameters" />
+      <module name="xc-goven-eureka" options="-parameters" />
+      <module name="xc-service-api" options="-parameters" />
+      <module name="xc-service-base-filesystem" options="-parameters" />
+      <module name="xc-service-manage-cms" options="-parameters" />
+      <module name="xc-service-manage-cms-client" options="-parameters" />
+      <module name="xc-service-manage-course" options="-parameters" />
+      <module name="xc-service-manage-media" options="-parameters" />
+      <module name="xc-service-search" options="-parameters" />
+    </option>
+  </component>
+</project>
