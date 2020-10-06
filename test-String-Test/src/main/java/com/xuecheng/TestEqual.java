@@ -13,6 +13,7 @@ public class TestEqual {
         System.out.println(s3 == s4);//false
         System.out.println(s5 == s4);//true
         System.out.println("改变后的代码。。。");
+        System.out.println("master分支的代码。。。");
 
     }
 }
