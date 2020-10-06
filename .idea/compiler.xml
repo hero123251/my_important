@@ -20,6 +20,7 @@
         <module name="test-rabbitmq-consumer" />
         <module name="test-rabbitmq-producer" />
         <module name="test-static-Demo" />
+        <module name="test-staticDemo" />
         <module name="test-String-Test" />
         <module name="test-thread_demo" />
         <module name="test-web" />
